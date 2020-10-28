@@ -55,6 +55,7 @@ html {
   background-image: url("https://i.kym-cdn.com/photos/images/original/000/320/984/651.jpg");
   background-repeat: repeat;
   background-size: 10%;
+  cursor: url("assets/cursor.png"), pointer;
 }
 
 .snow, .snow:before, .snow:after {
@@ -70,8 +71,8 @@ html {
 #snow {
     background: none;
     z-index: -1;
-    background-image: url('dumbbell.png');
-    height: 700%;
+    background-image: url('assets/dumbbell.png');
+    height: 850%;
     left: 0;
     position: absolute;
     top: 0;
@@ -80,6 +81,11 @@ html {
     -moz-animation: snow 10s linear infinite;
     -ms-animation: snow 10s linear infinite;
     animation: snow 10s linear infinite;
+}
+
+#moving-message {
+  color: white;
+  font-size: 60px;
 }
 @keyframes snow {
  0% {
