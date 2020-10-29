@@ -51,6 +51,19 @@
   background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
 }
 
+.ascii-container{
+  display: flex;
+  justify-content: center;
+}
+
+pre {
+  background: white;
+    font-family: 'Courier New', 'monospace';
+    margin: 1rem auto;
+    font-size: 8px;
+    line-height: 1;
+}
+
 html {
   background-image: url("https://i.kym-cdn.com/photos/images/original/000/320/984/651.jpg");
   background-repeat: repeat;
