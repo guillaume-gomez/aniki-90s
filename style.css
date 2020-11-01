@@ -51,6 +51,13 @@
   background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
 }
 
+#aniki-jap {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
 .ascii-container{
   display: flex;
   justify-content: center;
@@ -89,6 +96,7 @@ html {
     left: 0;
     position: absolute;
     top: 0;
+    opacity: 0.5;
     width: 100%;
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
